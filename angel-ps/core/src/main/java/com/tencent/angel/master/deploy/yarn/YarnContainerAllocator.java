@@ -70,7 +70,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  */
 public class YarnContainerAllocator extends ContainerAllocator {
 
-  private static final Log LOG = LogFactory.getLog(ContainerAllocator.class);
+  private static final Log LOG = LogFactory.getLog(YarnContainerAllocator.class);
 
   private final AMContext context;
 

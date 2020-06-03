@@ -30,7 +30,7 @@ import org.apache.hadoop.yarn.api.records.ApplicationId;
  * Local Angel Worker. It startups the {@link Worker} using a thread.
  */
 public class LocalWorker extends Thread {
-  private static final Log LOG = LogFactory.getLog(LocalCluster.class);
+  private static final Log LOG = LogFactory.getLog(LocalWorker.class);
   private final Worker worker;
 
   /**

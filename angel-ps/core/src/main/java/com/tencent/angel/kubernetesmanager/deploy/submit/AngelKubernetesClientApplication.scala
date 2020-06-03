@@ -38,7 +38,7 @@ private[angel] class Client(
                              watcher: LoggingPodStatusWatcher,
                              kubernetesResourceNamePrefix: String) {
 
-  private final val LOG: Log = LogFactory.getLog(classOf[KubernetesClientApplication])
+  private final val LOG: Log = LogFactory.getLog(classOf[Client])
 
   def run(): Unit = {
     val resolvedMasterSpec = builder.buildFromFeatures(kubernetesConf)

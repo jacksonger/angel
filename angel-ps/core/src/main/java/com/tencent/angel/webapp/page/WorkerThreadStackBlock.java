@@ -35,7 +35,7 @@ import static org.apache.hadoop.yarn.util.StringHelper.join;
 
 public class WorkerThreadStackBlock extends HtmlBlock {
   final AMContext amContext;
-  private static final Log LOG = LogFactory.getLog(ParameterServerThreadStackBlock.class);
+  private static final Log LOG = LogFactory.getLog(WorkerThreadStackBlock.class);
 
   @Inject WorkerThreadStackBlock(AMContext amctx) {
     amContext = amctx;

@@ -36,7 +36,7 @@ import java.util.Map;
  * Worker reference,refer {@link Location} and {@link TaskContext}
  */
 public class WorkerRef {
-  private static final Log LOG = LogFactory.getLog(Worker.class);
+  private static final Log LOG = LogFactory.getLog(WorkerRef.class);
   private final WorkerAttemptId workerAttemptId;
   private final Location location;
   private final Map<TaskId, TaskContext> taskIdToContextMap;

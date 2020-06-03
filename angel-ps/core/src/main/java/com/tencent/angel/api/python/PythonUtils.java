@@ -31,7 +31,7 @@ import java.util.Map;
 import java.util.Properties;
 
 public class PythonUtils {
-  private static final Log LOG = LogFactory.getLog(PythonRunner.class);
+  private static final Log LOG = LogFactory.getLog(PythonUtils.class);
 
   /**
    * Get the python PYTHONPATH for pyAngel, either from ANGEL_HOME, or added jar.

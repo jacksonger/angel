@@ -26,7 +26,7 @@ import org.apache.hadoop.conf.Configuration;
  */
 public class SnapshotFormat implements Format {
   protected final Configuration conf;
-  private final static Log LOG = LogFactory.getLog(RowFormat.class);
+  private final static Log LOG = LogFactory.getLog(SnapshotFormat.class);
 
   public SnapshotFormat(Configuration conf) {
     this.conf = conf;

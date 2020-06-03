@@ -35,7 +35,7 @@ import scala.collection.mutable
   * Get a batch of rows function implements by the get udf.
   */
 object GetRows {
-  private val LOG: Log = LogFactory.getLog(classOf[GetRowsParam])
+  private val LOG: Log = LogFactory.getLog(classOf[GetRows])
 }
 
 class GetRows(param: GetParam) extends GetFunc(param) {

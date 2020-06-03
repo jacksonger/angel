@@ -36,7 +36,7 @@ import org.apache.commons.logging.LogFactory;
  */
 public class IntDoubleVectorSplitter implements ISplitter {
 
-  protected final static Log LOG = LogFactory.getLog(RowUpdateSplitUtils.class);
+  protected final static Log LOG = LogFactory.getLog(IntDoubleVectorSplitter.class);
 
   @Override
   public Map<PartitionKey, RowUpdateSplit> split(Vector vector, List<PartitionKey> parts) {

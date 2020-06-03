@@ -38,7 +38,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class ConfUtils {
-  private static final Log LOG = LogFactory.getLog(AngelRunJar.class);
+  private static final Log LOG = LogFactory.getLog(ConfUtils.class);
   private static final String angelSysConfFile = "angel-site.xml";
 
   public static Configuration initConf(String[] cmdArgs) throws Exception {
