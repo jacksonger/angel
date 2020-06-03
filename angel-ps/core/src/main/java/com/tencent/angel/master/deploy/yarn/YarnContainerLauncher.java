@@ -56,7 +56,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * Yarn container launcher.It is responsible for interacting with Yarn's NodeManagers, starting or killing the container
  */
 public class YarnContainerLauncher extends ContainerLauncher {
-  static final Log LOG = LogFactory.getLog(ContainerLauncher.class);
+  static final Log LOG = LogFactory.getLog(YarnContainerLauncher.class);
   protected static final int INITIAL_POOL_SIZE = 10;
 
   private final ConcurrentHashMap<ContainerId, Container> containers;

@@ -51,7 +51,7 @@ import java.util.List;
  * Master RPC client
  */
 public class MasterClient {
-  private static final Log LOG = LogFactory.getLog(ParameterServer.class);
+  private static final Log LOG = LogFactory.getLog(MasterClient.class);
   /**
    * Master rpc protocol
    */

@@ -62,7 +62,7 @@ import org.junit.Test;
 public class GetNodeFeatsTest2 {
   public static String NODE = "node";
 
-  private static final Log LOG = LogFactory.getLog(InitNeighborTest.class);
+  private static final Log LOG = LogFactory.getLog(GetNodeFeatsTest2.class);
   private static final String LOCAL_FS = LocalFileSystem.DEFAULT_FS;
   private static final String TMP_PATH = System.getProperty("java.io.tmpdir", "/tmp");
   private AngelClient angelClient;

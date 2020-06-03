@@ -83,7 +83,7 @@ import org.apache.hadoop.fs.FSDataOutputStream;
  */
 public class PSRowElementLoaderSaver extends PSMatrixLoaderSaverImpl {
 
-  private final static Log LOG = LogFactory.getLog(PSRowLoaderSaver.class);
+  private final static Log LOG = LogFactory.getLog(PSRowElementLoaderSaver.class);
   private final ElementFormat format;
 
   public PSRowElementLoaderSaver(ElementFormat format, Configuration conf) {
